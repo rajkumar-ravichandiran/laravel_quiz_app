@@ -2,11 +2,27 @@
 
 This repository contains a Laravel application that implements a quiz functionality with user roles and CRUD operations. The application allows users to register, login, participate in quizzes, and manage quiz data. It also includes user roles to control access and permissions within the system.
 
+## Features
+
+- User registration with email verification
+- User roles and permissions
+- Admin approval workflow
+- CRUD operations for quizzes
+- Basic APIs to get Quiz questions
+
+## Email Verification and Approval
+
+- Users who register will receive an email verification link to confirm their email address.
+- After verifying their email, users will need to wait for admin approval.
+- Admins will receive email notifications for new user registrations and can approve users through the admin dashboard.
+- Approved users will receive an email notification confirming their account activation.
+
+
 ### Installation and Setup
 
 1. Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/your-username/laravel-quiz-app.git
+   git clone https://github.com/rajkumar-ravichandiran/laravel_quiz_app.git
    ```
 
 2. Navigate to the project directory:
