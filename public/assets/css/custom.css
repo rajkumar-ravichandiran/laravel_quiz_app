@@ -1,0 +1,41 @@
+#choices {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+#choices li {
+    padding: 10px;
+}
+.form-check .custom-control-label::before,
+.form-check .custom-control-label::after {
+    display: none;
+}
+#choices .form-check label {
+    min-width: 110px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid lightgrey;
+    transition: all 0.3s ease;
+    padding: 5px 10px;
+    font-size: 0.9rem;
+}
+
+#choices .form-check-input[type=radio] {display: none;}
+
+#choices .form-check {
+    padding: 0;
+}
+.form-check-input:checked~label {
+    background-color: #172b4d;
+    color: #fff;
+}
+#lottieAnimation {
+    width: 250px;
+    margin: 0 auto;
+}
+.login_btn .btn{
+    min-width: 160px;
+    max-width: 160px;
+}
