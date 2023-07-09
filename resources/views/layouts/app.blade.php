@@ -23,7 +23,7 @@
         <link href="{{ asset('assets') }}/vendor/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
         <!-- Argon CSS -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet">
-        <link type="text/css" href="{{ asset('assets') }}/css/argon.css" rel="stylesheet">
+        <link type="text/css" href="{{ asset('argon') }}/css/argon.css" rel="stylesheet">
         @yield('css')
     </head>
     <body class="{{ $class ?? '' }}">
@@ -43,13 +43,13 @@
             @include('layouts.footers.guest')
         @endguest
 
-        <script src="{{ asset('assets') }}/vendor/jquery/dist/jquery.min.js"></script>
-        <script src="{{ asset('assets') }}/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="{{ asset('argon') }}/vendor/jquery/dist/jquery.min.js"></script>
+        <script src="{{ asset('argon') }}/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
         <script src="{{ asset('assets') }}/js/custom.js"></script>
         @stack('js')
         
         <!-- Argon JS -->
-        <script src="{{ asset('assets') }}/js/argon.js?v=1.0.0"></script>
+        <script src="{{ asset('argon') }}/js/argon.js?v=1.0.0"></script>
     </body>
 </html>
