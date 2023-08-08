@@ -158,7 +158,7 @@ $(document).ready(function() {
               renderer: 'svg',
               loop: false,
               autoplay: true,
-              path: '{{ asset("assets") }}/img/defaults/success.json'
+              path: '/assets/img/defaults/success.json'
             });
             feedbackElement.removeClass('badge-warning').addClass('badge-success').text("Your score: " + score + "/" + quiz.length);
           }else {
@@ -167,7 +167,7 @@ $(document).ready(function() {
               renderer: 'svg',
               loop: false,
               autoplay: true,
-              path: '{{ asset("assets") }}/img/defaults/failed.json'
+              path: '/assets/img/defaults/failed.json'
             });            
             feedbackElement.removeClass('badge-success').addClass('badge-warning').text("Your score: " + score + "/" + quiz.length);
           }
