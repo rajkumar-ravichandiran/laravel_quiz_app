@@ -27,7 +27,7 @@ This repository contains a Laravel application that implements a quiz functional
 
 2. Navigate to the project directory:
    ```bash
-   cd laravel-quiz-app
+   cd laravel_quiz_app
    ```
 
 3. Install the dependencies using Composer:
